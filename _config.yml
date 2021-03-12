@@ -1,0 +1,73 @@
+# Site
+name: "Blog Seguros"
+title: "Blog Seguros"
+description: "Blog sobre seguros"
+logo: 'assets/images/logo.png'
+favicon: 'assets/images/logo.png'
+baseurl: /blog
+google_analytics:
+disqus:
+mailchimp-list:
+include: ["_pages"]
+permalink: /:title/
+
+# Authors
+authors:
+  carlos:
+    name: Carlos Muñiz
+    display_name: Carlos Muñiz
+    avatar: 'assets/images/carlos.jpeg'
+    gravatar: ''
+    email: ''
+    web: ''
+    twitter: ''
+    description: 'Experto en materia de seguors y etc...'
+  juan:
+    name: Autor 2
+    display_name: Autor2
+    avatar: 'assets/images/autor2.jpeg'
+    gravatar: ''
+    email: ''
+    web: ''
+    twitter: ''
+    description: ''
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-archives
+
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: '/category/:name/'
+
+# Pagination
+paginate: 6
+paginate_path: /page:num/
+
+# Other
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
+
+# Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
+adsense: "disabled"
+adsense-data-ad-client: ''
+adsense-data-ad-slot: ''
+
+# Lazy Images ("enabled" or "disabled")
+lazyimages: "enabled"
+
+exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]
