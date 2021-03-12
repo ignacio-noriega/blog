@@ -15,7 +15,7 @@ Se pueden hacen reviews y poner estrellitas
 
 #### Cómo hacerlo?
 
-se crea un nuevo post con las siguientes variables:
+se crea un nuevo post con estrellitas con las siguientes variables (especialmente la que se llama rating):
 
 ```html
 ---
