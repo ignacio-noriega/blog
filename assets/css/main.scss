@@ -8,6 +8,59 @@
 	display:inline;
 }
 
+.card-body, .mediumnavigation, .footer{
+background-image: linear-gradient(rgba(33, 160, 160, 0.83), #187e78)
+}
+
+.rating-holder{
+background-color: #fff0;
+}
+
+.lead{
+font-family: 'Montserrat', 'sans-serif';
+}
+
+.card-title {
+font-family: 'Josefin Sans', 'sans-serif';
+}
+
+.section-title h2{
+font-family: 'Josefin Sans', 'sans-serif';
+font-size: 1.7rem;
+}
+
+a {
+color:azure;
+}
+
+.navbar-light .navbar-nav .active>.nav-link{
+color:azure;
+}
+
+.navbar-light .navbar-nav .nav-link, .footer{
+color:#f0ffffb8;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+color:#f0ffffb8;
+}
+
+.listfeaturedtag h4.card-text, .listrecent h4.card-text{
+color:azure;
+}
+
+a.text-dark:focus, a.text-dark:hover{
+color: #343a4099!important
+}
+
+a.text-dark, a.text-dark{
+color: #343a40!important
+}
+
+.listfeaturedtag, .card{
+border:2px solid #078780
+}
+
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
 	"syntax",
